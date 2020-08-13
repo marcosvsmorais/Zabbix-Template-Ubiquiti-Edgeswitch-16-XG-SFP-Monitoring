@@ -1,0 +1,3755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>5.0</version>
+    <date>2020-08-13T13:34:32Z</date>
+    <groups>
+        <group>
+            <name>Templates</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</template>
+            <name>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</name>
+            <groups>
+                <group>
+                    <name>Templates</name>
+                </group>
+            </groups>
+            <items>
+                <item>
+                    <name>Interface SFP 0/1 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/1 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/1 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/1 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/1 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/1 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/1 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/2 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/2 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/2 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/2 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/2 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/2 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/2 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/3 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/3 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/3 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/3 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/3 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/3 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/3 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/4 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/4 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/4 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/4 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/4 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/4 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/4 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/5 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/5 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/5 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/5 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/5 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/5 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/5 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/6 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/6 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/6 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/6 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/6 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/6 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/6 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/7 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/7 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/7 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/7 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/7 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/7 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/7 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/8 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/8 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/8 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/8 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/8 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/8 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/8 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/9 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/9 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/9 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/9 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/9 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/9 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/9 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/10 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/10 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/10 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/10 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/10 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/10 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/10 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/11 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/11 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/11 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/11 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/11 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/11 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/11 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/12 - Corrente [mA]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/12 - LOS</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/12 - RX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/12 - Temperatura</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                    <units>°C</units>
+                </item>
+                <item>
+                    <name>Interface SFP 0/12 - TX-Fault</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/12 - TX-Power [dBm]</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+                <item>
+                    <name>Interface SFP 0/12 - Voltagem</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    <delay>5m</delay>
+                    <trends>0</trends>
+                    <value_type>FLOAT</value_type>
+                </item>
+            </items>
+            <discovery_rules>
+                <discovery_rule>
+                    <name>Generate edgeswitch_data.json</name>
+                    <type>EXTERNAL</type>
+                    <key>edgeswitch_sfp_information.py[&quot;{HOST.CONN}&quot;,&quot;{$UBNTUSER}&quot;,&quot;{$UBNTPASSWORD}&quot;,&quot;{$SSHPORT}&quot;]</key>
+                    <delay>5m</delay>
+                </discovery_rule>
+            </discovery_rules>
+            <macros>
+                <macro>
+                    <macro>{$SSHPORT}</macro>
+                    <value>9922</value>
+                </macro>
+                <macro>
+                    <macro>{$UBNTPASSWORD}</macro>
+                    <value>ubnt</value>
+                </macro>
+                <macro>
+                    <macro>{$UBNTUSER}</macro>
+                    <value>ubnt</value>
+                </macro>
+            </macros>
+            <screens>
+                <screen>
+                    <name>Interface SFP 0/1</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>interface SFP 0/1 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/1 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/1 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/1 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/1 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/1 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/1 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/2</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/2 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/2 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/2 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/2 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/2 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/2 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/2 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/3</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/3 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/3 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/3 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/3 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/3 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/3 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/3 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/4</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/4 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/4 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/4 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/4 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/4 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/4 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/4 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/5</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/5 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/5 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/5 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/5 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/5 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/5 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/5 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/6</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/6 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/6 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/6 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/6 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/6 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/6 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/6 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/7</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/7 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/7 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/7 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/7 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/7 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/7 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/7 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/8</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/8 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/8 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/8 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/8 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/8 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/8 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/8 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/9</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/9 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/9 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/9 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/9 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/9 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/9 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/9 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/10</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/10 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/10 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/10 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/10 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/10 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/10 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/10 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/11</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/11 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/11 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/11 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/11 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/11 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/11 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/11 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+                <screen>
+                    <name>Interface SFP 0/12</name>
+                    <hsize>3</hsize>
+                    <vsize>3</vsize>
+                    <screen_items>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/12 - Corrente [mA]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/12 - LOS</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/12 - RX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>0</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/12 - Temperatura</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/12 - TX-Fault</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>1</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/12 - TX-Power [dBm]</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>2</x>
+                            <y>1</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                        <screen_item>
+                            <resourcetype>0</resourcetype>
+                            <style>0</style>
+                            <resource>
+                                <name>Interface SFP 0/12 - Voltagem</name>
+                                <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                            </resource>
+                            <width>400</width>
+                            <height>100</height>
+                            <x>0</x>
+                            <y>2</y>
+                            <colspan>1</colspan>
+                            <rowspan>1</rowspan>
+                            <elements>0</elements>
+                            <valign>0</valign>
+                            <halign>0</halign>
+                            <dynamic>0</dynamic>
+                            <sort_triggers>0</sort_triggers>
+                            <url/>
+                            <application/>
+                            <max_columns>3</max_columns>
+                        </screen_item>
+                    </screen_items>
+                </screen>
+            </screens>
+        </template>
+    </templates>
+    <graphs>
+        <graph>
+            <name>Interface SFP 0/1 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0080</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/1 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FDD835</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/1 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>4000FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>interface SFP 0/1 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/1 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFBF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/1 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BF00FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/1 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/1&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/2 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/2 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <color>1A7C11</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/2 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>000000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/2 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0080</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/2 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BF00FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/2 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>0080FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/2 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00FF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/2&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/3 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/3 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/3 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF4000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/3 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFBF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/3 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/3 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>80FF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/3 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00BFFF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/3&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/4 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/4 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/4 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF4000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/4 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF8000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/4 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFBF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/4 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/4 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/4&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/5 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/5 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/5 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF4000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/5 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00FF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/5 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00BFFF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/5 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <color>4000FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/5 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/5&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/6 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/6 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/6 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF4000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/6 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFBF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/6 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00FF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/6 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00BFFF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/6 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/6&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/7 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/7 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/7 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF8000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/7 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/7 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00FFFF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/7 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>0040FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/7 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/7&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/8 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/8 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/8 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF8000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/8 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/8 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00FF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/8 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>4000FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/8 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BF00FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/8&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/9 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/9 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/9 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF4000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/9 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFBF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/9 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/9 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/9 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00BFFF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/9&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/10 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/10 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/10 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF8000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/10 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FFBF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/10 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00FFFF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/10 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>4000FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/10 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/10&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/11 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/11 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/11 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF8000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/11 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/11 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>00BFFF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/11 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BF00FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/11 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/11&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/12 - Corrente [mA]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>666699</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;CORRENTE&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/12 - LOS</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>CC6600</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;LOS&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/12 - RX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF8000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;RX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/12 - Temperatura</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BFFF00</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;TEMPERATURA&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/12 - TX-Fault</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>0080FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;TX-FAULT&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/12 - TX-Power [dBm]</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>BF00FF</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;TX-POWER&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+        <graph>
+            <name>Interface SFP 0/12 - Voltagem</name>
+            <graph_items>
+                <graph_item>
+                    <drawtype>GRADIENT_LINE</drawtype>
+                    <color>FF0000</color>
+                    <item>
+                        <host>Template Ubiquiti Edgeswitch 16 XG SFP Monitoring</host>
+                        <key>edgeswitch_read_json.py[&quot;0/12&quot;,&quot;VOLTAGEM&quot;,&quot;{HOST.CONN}&quot;]</key>
+                    </item>
+                </graph_item>
+            </graph_items>
+        </graph>
+    </graphs>
+</zabbix_export>
