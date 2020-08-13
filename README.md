@@ -1,0 +1,1 @@
+# Zabbix-Template-Ubiquiti-Edgeswitch-16-XG-SFP-Monitoring
